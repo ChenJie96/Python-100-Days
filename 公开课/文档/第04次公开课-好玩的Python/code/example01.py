@@ -1,5 +1,7 @@
 from PIL import Image, ImageFilter
-
+import sys
+import os
+os.chdir(sys.path[0]) 
 
 chiling = Image.open('resources/chiling.jpg')
 width, height = chiling.size
